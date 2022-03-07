@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spinner_shapes"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:entries="@array/shapes" />
+
+        <EditText
+            android:id="@+id/et_square_side"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/side"
+            android:inputType="number"
+            android:textSize="@dimen/hint_size"
+            android:autofillHints="0" />
+
+    <LinearLayout
+        android:id="@+id/linear_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_rectangle_width"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/width"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textSize="@dimen/hint_size"
+            android:autofillHints="0" />
+
+        <EditText
+            android:id="@+id/et_rectangle_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/height"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textSize="@dimen/hint_size"
+            android:autofillHints="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_triangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_triangle_sideA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/side_a"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textSize="@dimen/hint_size"
+            android:autofillHints="0" />
+
+        <EditText
+            android:id="@+id/et_triangle_base"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/base"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textSize="@dimen/hint_size"
+            android:autofillHints="0" />
+
+        <EditText
+            android:id="@+id/et_triangle_sideC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/side_c"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textSize="@dimen/hint_size"
+            android:autofillHints="0" />
+
+        <EditText
+            android:id="@+id/et_triangle_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/height"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textSize="@dimen/hint_size"
+            android:autofillHints="0" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_circle_radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/circle_radius"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="@dimen/hint_size"
+        android:autofillHints="0" />
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        android:textSize="@dimen/hint_size" />
+
+    <LinearLayout
+        android:id="@+id/linear_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/layout_padding">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/area"
+            android:textSize="@dimen/textview_size" />
+
+        <TextView
+            android:id="@+id/tv_area_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/zero"
+            android:textSize="@dimen/result_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/layout_padding">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/size"
+            android:textSize="@dimen/textview_size" />
+
+        <TextView
+            android:id="@+id/tv_size_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/zero"
+            android:textSize="@dimen/result_size" />
+
+    </LinearLayout>
+
+</LinearLayout>

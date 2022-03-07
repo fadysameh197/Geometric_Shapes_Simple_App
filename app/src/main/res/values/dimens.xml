@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_padding">15dp</dimen>
+    <dimen name="textview_size">24sp</dimen>
+    <dimen name="result_size">34sp</dimen>
+    <dimen name="hint_size">20sp</dimen>
+</resources>

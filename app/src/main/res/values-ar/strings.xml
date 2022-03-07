@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Geometric Shapes</string>
+
+    <!-- Hints Strings-->
+    <string name="height">الطول</string>
+    <string name="width">العرض</string>
+    <string name="circle_radius">نصف القطر</string>
+    <string name="triangle_base">القاعده</string>
+    <!--Buttons Strings-->
+    <string name="calculate">حساب</string>
+    <!--TextView Strings-->
+    <string name="area">المحيط</string>
+    <string name="size">المساحة</string>
+    <string name="zero">0</string>
+    <string name="side">طول الضلع</string>
+    <string name="side_a">ضلع أ</string>
+    <string name="base">القاعده</string>
+    <string name="side_c">ضلع ج</string>
+
+    <!--Spinner List-->
+    <string-array name="shapes">
+        <item>اختر الشكل</item>
+        <item>مربع</item>
+        <item>مستطيل</item>
+        <item>مثلث</item>
+        <item>دائره</item>
+    </string-array>
+</resources>

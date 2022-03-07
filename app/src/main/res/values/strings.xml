@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Geometric Shapes</string>
+    <!-- Hints Strings-->
+    <string name="height">Height</string>
+    <string name="width">Width</string>
+    <string name="circle_radius">Circle Radius</string>
+    <string name="triangle_base">Base</string>
+    <!--Buttons Strings-->
+    <string name="calculate">Calculate</string>
+    <!--TextView Strings-->
+    <string name="area">Area</string>
+    <string name="size">Size</string>
+    <string name="zero">0</string>
+    <string name="side">Side</string>
+    <string name="side_a">side A</string>
+    <string name="base">Base</string>
+    <string name="side_c">side C</string>
+    <!--Spinner List-->
+    <string-array name="shapes">
+        <item>Select Shape</item>
+        <item>Square</item>
+        <item>Rectangle</item>
+        <item>Triangle</item>
+        <item>Circle</item>
+    </string-array>
+</resources>
